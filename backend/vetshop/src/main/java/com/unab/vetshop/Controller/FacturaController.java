@@ -35,7 +35,7 @@ public class FacturaController {
     public ResponseEntity<Factura> eliminar(@PathVariable String id){ 
         Factura obj = facturaService.findById(id); 
         if(obj!=null) 
-        facturaService.delete(id); 
+            facturaService.delete(id); 
         else 
             return new ResponseEntity<>(obj, HttpStatus.INTERNAL_SERVER_ERROR); 
         return new ResponseEntity<>(obj, HttpStatus.OK); 
