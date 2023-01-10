@@ -1,9 +1,5 @@
 package com.unab.vetshop.Controller;
 
-
-import com.unab.vetshop.Models.Cliente;
-import com.unab.vetshop.Dao.ClienteDao;
-import com.unab.vetshop.Service.ClienteService;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +14,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.unab.vetshop.Models.Cliente;
+import com.unab.vetshop.Dao.ClienteDao;
+import com.unab.vetshop.Service.ClienteService;
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/cliente")
