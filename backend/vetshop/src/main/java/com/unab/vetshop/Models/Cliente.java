@@ -25,9 +25,9 @@ public class Cliente  implements Serializable{
     @Column(name="direccion_cliente")
     private String direccion_cliente;
     
-    @ManyToMany
-    @JoinColumn(name="correo_reg")
-    @JoinColumn(name="contrasena_reg")
+    //@ManyToMany
+    //@JoinColumn(name="correo_reg")
+    //@JoinColumn(name="contrasena_reg")
     private Registro registro;
 
     

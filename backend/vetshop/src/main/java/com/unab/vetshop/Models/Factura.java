@@ -25,12 +25,12 @@ public class Factura  implements Serializable{
     @Column(name="forma_pago")
     private String forma_pago;
 
-    @ManyToOne
-    @JoinColumn(name="id_cliente")
+    //@ManyToOne
+    //@JoinColumn(name="id_cliente")
     private Cliente cliente;
     
-    @ManyToOne
-    @JoinColumn(name="id_pedido")
+    //@ManyToOne
+    //@JoinColumn(name="id_pedido")
     private Pedido pedido;
 
     @Override

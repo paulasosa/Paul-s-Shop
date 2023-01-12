@@ -21,9 +21,9 @@ public class Login  implements Serializable{
     @Column(name="id_login")
     private String id_login;
 
-    @ManyToMany
-    @JoinColumn(name="correo_reg")
-    @JoinColumn(name="contrasena_reg")
+    //@ManyToMany
+    //@JoinColumn(name="correo_reg")
+   // @JoinColumn(name="contrasena_reg")
     private Registro registro;
 
 
