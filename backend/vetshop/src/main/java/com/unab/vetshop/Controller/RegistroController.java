@@ -26,7 +26,7 @@ public class RegistroController {
     private RegistroDao registroDao; 
     @Autowired
     private RegistroService registroService;
-    @PostMapping(value="/")
+    @PostMapping(value="/registro")
     public ResponseEntity<Registro> agregar(@RequestBody Registro registro){        
         Registro obj = registroService.save(registro);
         return new ResponseEntity<>(obj, HttpStatus.OK);     
