@@ -123,7 +123,7 @@ a {
     color: #acd9b2;
     margin-left: 5px;
 }
-/*Email enviado*/
+
 /*Login*/
 .form a {
     color: var(--hospital-green);
@@ -244,47 +244,7 @@ a {
     margin-bottom: 20px;
     display: inline-block;
 }
-/*Menu mobile*/
-.mobile-menu {
-    padding: 24px;
-}
-.mobile-menu a {
-    text-decoration: none;
-    color: var(--black);
-    font-weight: bold;
-    /*margin-bottom: 24px;
-    display: inline-block;*/
-}
-.mobile-menu ul {
-    padding: 0;
-    margin: 24px 0 0;
-    list-style: none;
-}
-.mobile-menu ul:nth-child(1) {
-    border-bottom: 1px solid var(--very-light-pink);
-}
-.mobile-menu ul li {
-    margin-block-end: 30px;
-}
-.mobile-menu .email {
-    font-size: var(--sm);
-    font-weight: 300;
-}
-.mobile-menu .sign-out {
-    font-size: var(--sm);
-    color: var(--hospital-green);
-}
-.mobile-menu .orders {
-    position: absolute;
-    bottom: 0;
-}
-.mobile-menu .email-menu{
-    font-weight: 500;
-    justify-content: center;
-    display: flex;
-    color: var(--black);
-    font-size: var(--sm)
-}
+
 /*Mi orden*/
 .my-order {
     width: 100%;
@@ -553,39 +513,4 @@ nav {
     font-size: var(--md);
     font-weight: bold;
 }
-/*Inicio Responsive*/
 
-@media (max-width: 640px) {
-    .logo {
-        display: block;
-    }
-    .form-container {
-        height: 100%;
-    }
-    .form {
-        height: 100%;
-        justify-content: space-between;
-    }
-    .cards-container {
-        grid-template-columns: repeat(auto-fill, 140px);
-    }
-    .product-card {
-        width: 140px;
-    }
-    .product-card img {
-        width: 140px;
-        height: 140px;
-    }
-    .menu-nav {
-        display: block;
-    }
-    .navbar-left ul {
-        display: none;
-    }
-    .navbar-email {
-        display: none;
-    }
-    .product-detail {
-        width: 100%;
-    }
-}
