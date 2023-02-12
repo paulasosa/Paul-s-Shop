@@ -1,2 +1,2 @@
 # Paul-s-Shop
-This is my project for NivelacionTarde_Ciclo3_UNAB
+This is my project for Mintic_Ciclo3_UNAB
