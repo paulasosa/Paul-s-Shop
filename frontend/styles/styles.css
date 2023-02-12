@@ -7,10 +7,23 @@
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
+
 }
 body {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
+        display: grid;
+        margin-top: 50px;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+}
+p {
+    margin-bottom: 50px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 .login {
     display: grid;
