@@ -31,10 +31,10 @@ a {
     gap: 30%;
     justify-content: center;
 }
-.productsContainer {
+.indexdetailContainer {
     display: flexbox;
-    margin: 10%;
-    gap: 30%;
+    gap: 20%;
+    margin-top: 5%;
     justify-content: center;
 }
 .login {
@@ -175,6 +175,16 @@ a {
     grid-template-columns: repeat(auto-fill, 240px);
     gap: 26px;
     place-content: center;
+    margin-top: 30px;
+}
+.cards-container-products {
+    display: flex;
+    gap: 26px;
+    place-content: center;
+    margin: 20px;
+    margin-top: 30px;
+
+    
 }
 .product-card {
     width: 240px;
