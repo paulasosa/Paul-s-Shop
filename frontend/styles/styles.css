@@ -3,7 +3,7 @@
     --black: #000;
     --very-light-pink: #c7c7c7;
     --text-input-field: #f7f7f7;
-    --hospital-green: #acd9b2;
+    --hospital-green: #acb1d9;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -24,6 +24,18 @@ p {
 a {
     text-decoration: none;
     cursor: pointer;
+}
+.accountContainer {
+    display: flex;
+    margin: 10%;
+    gap: 30%;
+    justify-content: center;
+}
+.productsContainer {
+    display: flexbox;
+    margin: 10%;
+    gap: 30%;
+    justify-content: center;
 }
 .login {
     display: grid;
